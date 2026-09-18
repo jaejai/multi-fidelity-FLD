@@ -1,0 +1,12 @@
+# Requirements for tabular_fm/mf_fire.ipynb (FIRE / TabPFN v3 multi-fidelity pipeline)
+# Also requires the local checkpoint tabpfn-v3-regressor-v3_default.ckpt and completed mf_ar1_nargp.ipynb run for the same config (the notebook asserts against its ar1_nargp_results.json).
+numpy==2.5.1
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+scipy==1.18.0
+# CUDA build in the verified env: torch==2.13.0+cu130 (install from the PyTorch CUDA
+# index, e.g. pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cu130).
+# The plain PyPI wheel below runs the notebook on CPU (slower).
+torch==2.13.0
+tabpfn==8.1.0
