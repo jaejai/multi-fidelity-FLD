@@ -1,0 +1,9 @@
+# Requirements for mf_ar1_nargp.ipynb (AR1 + NARGP multi-fidelity GP study)
+numpy==2.5.1
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+scipy==1.18.0
+GPy==1.14.2
+paramz==0.10.0
+emukit==0.5.1
